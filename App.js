@@ -7,9 +7,9 @@ import Camera from './components/camera';
 
 // --- DATA, Stack, Item, HomeScreen, DetailScreen (giữ nguyên) ---
 const DATA = [
-    { id: '1', title: 'Squat', image: require('./image/squad.png'), description: 'Squats help build strength in your legs.', video: require('./image/squad.mp4'), instructions: 'Stand tall, lower your body by pushing your hips back, thighs parallel to the ground, keep weight on your heels, and rise up while squeezing your glutes.' },
-    { id: '2', title: 'Plank', image: require('./image/plank.png'), description: 'Planks are great for core strength.', video: require('./image/plank.mp4'), instructions: "Forearms on the ground, body straight, core tight, don't lift hips too high or drop them low, hold and breathe steadily." },
-    { id: '3', title: 'Push ups', image: require('./image/pushups.png'), description: 'Push-ups are a classic upper body exercise.', video: require('./image/pushups.mp4'), instructions: 'Keep your body straight from head to heels, lower your chest to almost touch the floor and then push up' },
+    { id: '1', title: 'Squat', image: require('.assets/image/squad.png'), description: 'Squats help build strength in your legs.', video: require('.assets/image/squad.mp4'), instructions: 'Stand tall, lower your body by pushing your hips back, thighs parallel to the ground, keep weight on your heels, and rise up while squeezing your glutes.' },
+    { id: '2', title: 'Plank', image: require('.assets/image/plank.png'), description: 'Planks are great for core strength.', video: require('.assets/image/plank.mp4'), instructions: "Forearms on the ground, body straight, core tight, don't lift hips too high or drop them low, hold and breathe steadily." },
+    { id: '3', title: 'Push ups', image: require('.assets/image/pushups.png'), description: 'Push-ups are a classic upper body exercise.', video: require('.assets/image/pushups.mp4'), instructions: 'Keep your body straight from head to heels, lower your chest to almost touch the floor and then push up' },
 ];
 const Stack = createNativeStackNavigator();
 
